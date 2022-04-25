@@ -6,7 +6,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Arima+Madurai:wght@500&family=Handlee&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css">
 </head>
 <body style="background-image: url('abstract-polygonal-background-vector.jpg')">
 <center><div id="menu">
@@ -199,6 +199,12 @@ $(function(){
  });​
  </script>
 
- 
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+ <script>
+   $('#message').emojioneArea({
+     pickerPosition: 'top'
+   });
+ </script>
 </body>
 </html>
